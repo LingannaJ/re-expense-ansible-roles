@@ -2,3 +2,5 @@ login_host: db.shivdev.online
 login_user: root
 login_password: ExpenseApp@1
 DB_HOST: db.shivdev.online
+app_location: /app
+component: backend
