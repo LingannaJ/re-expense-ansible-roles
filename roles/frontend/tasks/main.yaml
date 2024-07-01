@@ -9,6 +9,11 @@
     path: /usr/share/nginx/html/
     state: absent
 
+- name: run common-requisites
+  ansible.builtin.import_role:
+    name: common
+    tasks_from: common-requisites
+    
 # - name: create contant directory
 #   ansible.builtin.file:
 #     path: /usr/share/nginx/html/
