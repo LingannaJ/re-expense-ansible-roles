@@ -1,4 +1,4 @@
 login_host: db.shivdev.online
 login_user: root
 login_password: ExpenseApp@1
-db_host: db.shivdev.online
+DB_HOST: db.shivdev.online
