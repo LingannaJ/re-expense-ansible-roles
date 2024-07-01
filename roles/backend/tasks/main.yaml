@@ -19,8 +19,8 @@
 - name: run common-requisites
   ansible.builtin.import_role:
     name: common
-    tasks_from: common-requisites
-    
+    tasks_from: common.req
+
 # - name: create app directory
 #   ansible.builtin.file:
 #     path: /app
